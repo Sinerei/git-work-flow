@@ -17,7 +17,7 @@ for i_episode in range(30):
             print("Episode finished after {} timesteps".format(t+1))
             break
 """
-
+"""
 env = gym.make('StarGunnerNoFrameskip-v4')
 env.reset()
 print(env.action_space)
@@ -27,7 +27,7 @@ for _ in range(5000):
     env.step(env.action_space.sample()) # take a random action
 
 
-
+"""
 """
 space = spaces.Discrete(8) # Set with 8 elements {0, 1, 2, ..., 7}
 x = space.sample()
